@@ -9,7 +9,7 @@ services:
         uid: 1000
       context: .
       dockerfile: Dockerfile
-    image: teddi/php
+    image: tosin/php
     container_name: app
     restart: unless-stopped
     tty: true
